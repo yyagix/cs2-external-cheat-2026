@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YunalCore CS2 External Documentation, Configs &amp; Setup Guide (2026)</title>
+  <meta name="description" content="Official static setup guide, overlay troubleshooting, OBS streamproof checklist, and CS2 legit config presets for YunalCore External." />
+  <link rel="canonical" href="https://yyagix.github.io/cs2-external-cheat-2026/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="YunalCore CS2 External Setup &amp; Config Documentation" />
+  <meta property="og:description" content="Complete external overlay setup guide, Windowed Fullscreen optimization, and CS2 Premier config presets." />
+  <meta property="og:image" content="https://yunalcore.app/img/showcase-nightmode.webp" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "YunalCore CS2 External Overlay Setup, Streamproof OBS Guide & Legit Configs",
+    "description": "Technical setup reference for external Counter-Strike 2 overlays, Windows Windowed Fullscreen rendering, OBS streamproof isolation, and per-weapon legit settings.",
+    "author": { "@type": "Organization", "name": "YunalCore", "url": "https://yunalcore.app" },
+    "mainEntityOfPage": "https://yyagix.github.io/cs2-external-cheat-2026/"
+  }
+  </script>
+  <style>
+    :root { --bg: #0c0d11; --card: #13151d; --red: #c81622; --text: #f4f4f6; --muted: #a1a1aa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; }
+    .wrap { max-width: 1020px; margin: 0 auto; padding: 48px 20px 72px; }
+    .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(200,22,34,.14); color: #ff5662; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+    h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.12; margin: 16px 0 12px; }
+    h2 { font-size: 22px; margin-top: 40px; border-left: 3px solid var(--red); padding-left: 12px; }
+    p, li { color: #d4d4d8; }
+    a { color: #ff5a66; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 36px; }
+    .btn { display: inline-block; padding: 11px 22px; border-radius: 999px; font-weight: 700; font-size: 14px; }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-secondary { background: rgba(255,255,255,.08); color: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 20px; }
+    .card { background: var(--card); border-radius: 14px; padding: 20px; border: 1px solid rgba(255,255,255,.06); }
+    .card img { width: 100%; border-radius: 10px; margin-bottom: 12px; }
+    code, pre { background: #191c26; padding: 2px 6px; border-radius: 6px; font-size: 13px; color: #f87171; }
+    pre { padding: 14px; overflow-x: auto; color: #e4e4e7; }
+    footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.08); font-size: 13px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="badge">YunalCore v3.4.0 · Setup &amp; Config Docs</span>
+    <h1>YunalCore External CS2 — Technical Documentation &amp; Config Guide</h1>
+    <p>
+      This open reference hub covers Windows display configuration, OBS/Discord streamproof setup, 240Hz overlay smoothness, and community legit presets for
+      <a href="https://yunalcore.app/en"><strong>YunalCore External CS2</strong></a>.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://yunalcore.app/en/free-cs2-cheat">Start 24h Free Trial</a>
+      <a class="btn btn-secondary" href="https://yunalcore.app/en/buy-cs2-cheat">View Plans</a>
+      <a class="btn btn-secondary" href="https://yunalcore.app/en/configs">Browse Cloud Configs</a>
+      <a class="btn btn-secondary" href="https://discord.gg/eY6m6R2mDU">Join Discord</a>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://yunalcore.app/img/showcase-nightmode.webp" alt="YunalCore Night Mode & C4 ESP Showcase" loading="lazy" />
+        <h3><a href="https://yunalcore.app/en/cs2-wallhack">Streamproof Wallhack &amp; Night Mode</a></h3>
+        <p>External DirectX 11 overlay featuring Corner Boxes, Bone Skeletons, Sound ESP rings, C4 Timer, and zero OBS/Discord capture leakage.</p>
+      </div>
+      <div class="card">
+        <img src="https://yunalcore.app/img/showcase-aimbot-general.webp" alt="YunalCore v3.4.0 Legit Aimbot Menu" loading="lazy" />
+        <h3><a href="https://yunalcore.app/en/cs2-aimbot">Per-Weapon Legit Aimbot &amp; RCS</a></h3>
+        <p>Adaptive Velocity Prediction, smooth curve tracking, customizable FOV/Deadzone, and recoil control calibrated for 2026 CS2 spray timing.</p>
+      </div>
+      <div class="card">
+        <img src="https://yunalcore.app/img/showcase-grenade.webp" alt="YunalCore Grenade Helper Smoke Lineups" loading="lazy" />
+        <h3><a href="https://yunalcore.app/en/cs2-triggerbot">1ms Triggerbot &amp; Grenade Helper</a></h3>
+        <p>Dedicated 1ms trigger thread with Scoped-Only AWP guard paired with visual smoke, flash, and molotov stand/aim lineups.</p>
+      </div>
+    </div>
+
+    <h2>1. Optimal Display &amp; Overlay Setup Checklist</h2>
+    <ul>
+      <li>Set CS2 Video Settings to <strong>Fullscreen Windowed</strong> so external overlays synchronize with DWM without flickering.</li>
+      <li>Match Windows DPI scaling to <code>100%</code> on your primary display for pinpoint skeleton alignment on Mirage, Dust2, and Inferno.</li>
+      <li>For streaming on OBS Studio or Discord, follow our full <a href="https://yunalcore.app/en/guides/obs-streamproof-wallhack-esp">OBS &amp; Discord Streamproof Guide</a>.</li>
+    </ul>
+
+    <h2>2. Starter Legit Premier Presets &amp; Cloud Config Codes</h2>
+    <p>
+      Import ready-made Premier configurations directly using 8-character codes from the <a href="https://yunalcore.app/en/configs">YunalCore Config Directory</a>:
+    </p>
+    <pre>Share Code: 35F2DF07  — Clean Legit Rifle/AWP Setup (Low FOV + Smooth Curve)
+Guide:      See https://yunalcore.app/en/guides/cs2-legit-aimbot-settings</pre>
+
+    <h2>3. Architecture &amp; Live Patch Sync</h2>
+    <p>
+      Read why external memory isolation keeps main accounts cleaner compared to DLL-injected hacks in our breakdown:
+      <a href="https://yunalcore.app/en/external-vs-internal">External vs Internal CS2 Comparison</a>, and check real-time patch compatibility anytime on
+      <a href="https://yunalcore.app/en/status">YunalCore Live Status</a>.
+    </p>
+
+    <footer>
+      Localized Portals:
+      <a href="https://yunalcore.app/en">English</a> ·
+      <a href="https://yunalcore.app/tr">Türkçe (CS2 Hile)</a> ·
+      <a href="https://yunalcore.app/ru">Русский (Чит CS2)</a> ·
+      <a href="https://yyagix.github.io/cs2-external-hile-2026/">Türkçe GitHub Docs</a>
+    </footer>
+  </main>
+</body>
+</html>
